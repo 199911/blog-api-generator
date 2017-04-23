@@ -1,0 +1,24 @@
+{
+  "name": "blog-api-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fcms-hexopost2json": "^0.0.1",
+    "glob": "^7.1.1",
+    "lodash": "^4.17.4",
+    "object-hash": "^1.1.8",
+    "yaml-front-matter": "^3.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/199911/blog-api-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/199911/blog-api-generator/issues"
+  },
+  "homepage": "https://github.com/199911/blog-api-generator#readme"
+}
