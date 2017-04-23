@@ -8,6 +8,7 @@
     "glob": "^7.1.1",
     "lodash": "^4.17.4",
     "object-hash": "^1.1.8",
+    "showdown": "^1.6.4",
     "yaml-front-matter": "^3.4.0"
   },
   "devDependencies": {},
