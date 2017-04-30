@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const program = require('commander');
+const main = require('..');        // looks for "main" in ../package.json
+
+program
+    .version(require('../package.json').version)
+    .usage('<Hexo Project Path> <JSON Directory Path>')
+    .parse(process.argv);
+
+// If there's no list of files to process, print usage and quit immediately
+if (!program.args.length) {
+    program.help();
+}
+
+const [ hexoProjectPath, jsonProjectPath ] = program.args;
+main(hexoProjectPath, jsonProjectPath);

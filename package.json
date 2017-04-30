@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "commander": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
     "fcms-hexopost2json": "^0.0.1",
     "glob": "^7.1.1",
     "lodash": "^4.17.4",
